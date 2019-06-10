@@ -1,0 +1,29 @@
+<!DOCTYPE RCC><RCC version="1.0">
+    <qresource prefix="/translations">
+        <file alias="bg">locale/reliefcoin_bg.qm</file>
+        <file alias="ca">locale/reliefcoin_ca.qm</file>
+        <file alias="cs">locale/reliefcoin_cs.qm</file>
+        <file alias="da">locale/reliefcoin_da.qm</file>
+        <file alias="de">locale/reliefcoin_de.qm</file>
+        <file alias="en">locale/reliefcoin_en.qm</file>
+        <file alias="en_US">locale/reliefcoin_en_US.qm</file>
+        <file alias="es">locale/reliefcoin_es.qm</file>
+        <file alias="fi">locale/reliefcoin_fi.qm</file>
+        <file alias="fr_FR">locale/reliefcoin_fr_FR.qm</file>
+        <file alias="it">locale/reliefcoin_it.qm</file>
+        <file alias="ja">locale/reliefcoin_ja.qm</file>
+        <file alias="ko_KR">locale/reliefcoin_ko_KR.qm</file>
+        <file alias="nl">locale/reliefcoin_nl.qm</file>
+        <file alias="pl">locale/reliefcoin_pl.qm</file>
+        <file alias="pt">locale/reliefcoin_pt.qm</file>
+        <file alias="pt_BR">locale/reliefcoin_pt_BR.qm</file>
+        <file alias="ro_RO">locale/reliefcoin_ro_RO.qm</file>
+        <file alias="ru">locale/reliefcoin_ru.qm</file>
+        <file alias="sk">locale/reliefcoin_sk.qm</file>
+        <file alias="sv">locale/reliefcoin_sv.qm</file>
+        <file alias="tr">locale/reliefcoin_tr.qm</file>
+        <file alias="uk">locale/reliefcoin_uk.qm</file>
+        <file alias="zh_CN">locale/reliefcoin_zh_CN.qm</file>
+        <file alias="zh_TW">locale/reliefcoin_zh_TW.qm</file>
+    </qresource>
+</RCC>
