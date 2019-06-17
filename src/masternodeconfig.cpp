@@ -69,10 +69,10 @@ bool CMasternodeConfig::read(std::string& strErr)
                 streamConfig.close();
                 return false;
             }
-        } else if (CService(ip).GetPort() == 44219) {
+        } else if (CService(ip).GetPort() == 16000) {
             strErr = _("Invalid port detected in masternode.conf") + "\n" +
                      strprintf(_("Line: %d"), linenumber) + "\n\"" + line + "\"" + "\n" +
-                     _("(44219 could be used only on mainnet)");
+                     _("(16000 could be used only on mainnet)");
             streamConfig.close();
             return false;
         }

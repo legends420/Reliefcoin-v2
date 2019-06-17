@@ -242,10 +242,10 @@ UniValue stop(const UniValue& params, bool fHelp)
     if (fHelp || params.size() > 1)
         throw runtime_error(
             "stop\n"
-            "\nStop Cryptonodes server.");
+            "\nStop reliefcoin server.");
     // Shutdown will take long enough that the response should get back
     StartShutdown();
-    return "Cryptonodes server stopping";
+    return "reliefcoin server stopping";
 }
 
 
@@ -327,33 +327,33 @@ static const CRPCCommand vRPCCommands[] =
         {"hidden", "reconsiderblock", &reconsiderblock, true, true, false},
         {"hidden", "setmocktime", &setmocktime, true, false, false},
 
-        /* Cryptonodes features */
-        {"cryptonodes", "masternode", &masternode, true, true, false},
-        {"cryptonodes", "listmasternodes", &listmasternodes, true, true, false},
-        {"cryptonodes", "getmasternodecount", &getmasternodecount, true, true, false},
-        {"cryptonodes", "masternodeconnect", &masternodeconnect, true, true, false},
-        {"cryptonodes", "masternodecurrent", &masternodecurrent, true, true, false},
-        {"cryptonodes", "masternodedebug", &masternodedebug, true, true, false},
-        {"cryptonodes", "startmasternode", &startmasternode, true, true, false},
-        {"cryptonodes", "createmasternodekey", &createmasternodekey, true, true, false},
-        {"cryptonodes", "getmasternodeoutputs", &getmasternodeoutputs, true, true, false},
-        {"cryptonodes", "listmasternodeconf", &listmasternodeconf, true, true, false},
-        {"cryptonodes", "getmasternodestatus", &getmasternodestatus, true, true, false},
-        {"cryptonodes", "getmasternodewinners", &getmasternodewinners, true, true, false},
-        {"cryptonodes", "getmasternodescores", &getmasternodescores, true, true, false},
-        {"cryptonodes", "mnbudget", &mnbudget, true, true, false},
-        {"cryptonodes", "preparebudget", &preparebudget, true, true, false},
-        {"cryptonodes", "submitbudget", &submitbudget, true, true, false},
-        {"cryptonodes", "mnbudgetvote", &mnbudgetvote, true, true, false},
-        {"cryptonodes", "getbudgetvotes", &getbudgetvotes, true, true, false},
-        {"cryptonodes", "getnextsuperblock", &getnextsuperblock, true, true, false},
-        {"cryptonodes", "getbudgetprojection", &getbudgetprojection, true, true, false},
-        {"cryptonodes", "getbudgetinfo", &getbudgetinfo, true, true, false},
-        {"cryptonodes", "mnbudgetrawvote", &mnbudgetrawvote, true, true, false},
-        {"cryptonodes", "mnfinalbudget", &mnfinalbudget, true, true, false},
-        {"cryptonodes", "checkbudgets", &checkbudgets, true, true, false},
-        {"cryptonodes", "mnsync", &mnsync, true, true, false},
-        {"cryptonodes", "spork", &spork, true, true, false},
+        /* reliefcoin features */
+        {"reliefcoin", "masternode", &masternode, true, true, false},
+        {"reliefcoin", "listmasternodes", &listmasternodes, true, true, false},
+        {"reliefcoin", "getmasternodecount", &getmasternodecount, true, true, false},
+        {"reliefcoin", "masternodeconnect", &masternodeconnect, true, true, false},
+        {"reliefcoin", "masternodecurrent", &masternodecurrent, true, true, false},
+        {"reliefcoin", "masternodedebug", &masternodedebug, true, true, false},
+        {"reliefcoin", "startmasternode", &startmasternode, true, true, false},
+        {"reliefcoin", "createmasternodekey", &createmasternodekey, true, true, false},
+        {"reliefcoin", "getmasternodeoutputs", &getmasternodeoutputs, true, true, false},
+        {"reliefcoin", "listmasternodeconf", &listmasternodeconf, true, true, false},
+        {"reliefcoin", "getmasternodestatus", &getmasternodestatus, true, true, false},
+        {"reliefcoin", "getmasternodewinners", &getmasternodewinners, true, true, false},
+        {"reliefcoin", "getmasternodescores", &getmasternodescores, true, true, false},
+        {"reliefcoin", "mnbudget", &mnbudget, true, true, false},
+        {"reliefcoin", "preparebudget", &preparebudget, true, true, false},
+        {"reliefcoin", "submitbudget", &submitbudget, true, true, false},
+        {"reliefcoin", "mnbudgetvote", &mnbudgetvote, true, true, false},
+        {"reliefcoin", "getbudgetvotes", &getbudgetvotes, true, true, false},
+        {"reliefcoin", "getnextsuperblock", &getnextsuperblock, true, true, false},
+        {"reliefcoin", "getbudgetprojection", &getbudgetprojection, true, true, false},
+        {"reliefcoin", "getbudgetinfo", &getbudgetinfo, true, true, false},
+        {"reliefcoin", "mnbudgetrawvote", &mnbudgetrawvote, true, true, false},
+        {"reliefcoin", "mnfinalbudget", &mnfinalbudget, true, true, false},
+        {"reliefcoin", "checkbudgets", &checkbudgets, true, true, false},
+        {"reliefcoin", "mnsync", &mnsync, true, true, false},
+        {"reliefcoin", "spork", &spork, true, true, false},
 #ifdef ENABLE_WALLET
 
         /* Wallet */
@@ -1070,7 +1070,7 @@ std::vector<std::string> CRPCTable::listCommands() const
 
 std::string HelpExampleCli(string methodname, string args)
 {
-    return "> cryptonodes-cli " + methodname + " " + args + "\n";
+    return "> reliefcoin-cli " + methodname + " " + args + "\n";
 }
 
 std::string HelpExampleRpc(string methodname, string args)

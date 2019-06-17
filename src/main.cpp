@@ -3,7 +3,7 @@
 // Copyright (c) 2014-2015 The Dash developers
 // Copyright (c) 2015-2017 The PIVX developers
 // Copyright (c) 2017-2017 The Bitcoin Green developers
-// Copyright (c) 2018-2019 The Cryptonodes developers
+// Copyright (c) 2018-2019 The reliefcoin developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -47,7 +47,7 @@ using namespace boost;
 using namespace std;
 
 #if defined(NDEBUG)
-#error "Cryptonodes cannot be compiled without assertions."
+#error "reliefcoin cannot be compiled without assertions."
 #endif
 
 // 6 comes from OPCODE (1) + vch.size() (1) + BIGNUM size (4)

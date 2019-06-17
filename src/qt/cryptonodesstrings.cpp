@@ -203,10 +203,10 @@ QT_TRANSLATE_NOOP("reliefcoin", ""
 QT_TRANSLATE_NOOP("reliefcoin", ""
 "You must specify a masternodeprivkey in the configuration. Please see "
 "documentation for help."),
-QT_TRANSLATE_NOOP("reliefcoin", "(44219 could be used only on mainnet)"),
+QT_TRANSLATE_NOOP("reliefcoin", "(16000 could be used only on mainnet)"),
 QT_TRANSLATE_NOOP("reliefcoin", "(default: %s)"),
 QT_TRANSLATE_NOOP("reliefcoin", "(default: 1)"),
-QT_TRANSLATE_NOOP("reliefcoin", "(must be 44219 for mainnet)"),
+QT_TRANSLATE_NOOP("reliefcoin", "(must be 16000 for mainnet)"),
 QT_TRANSLATE_NOOP("reliefcoin", "<category> can be:"),
 QT_TRANSLATE_NOOP("reliefcoin", "Accept command line and JSON-RPC commands"),
 QT_TRANSLATE_NOOP("reliefcoin", "Accept connections from outside (default: 1 if no -proxy or -connect)"),
